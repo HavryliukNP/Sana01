@@ -8,6 +8,14 @@ c = double.Parse(Console.ReadLine());
 Console.WriteLine("Enter a number (d) of type double: ");
 d = double.Parse(Console.ReadLine());
 double x = (a + 2 * b - c + d) / (c * d) + (a + b) / (c - d) - a * a / (b * b);
-Console.WriteLine("x = "); Console.Write(x);
-Console.Write(x);
-
+Console.WriteLine("x ="); 
+Console.WriteLine(x);
+double y = 5 * (a + b) * (c - d) / (1 / 2.0 * c) + d * d * ((a * a - b * b) / (b - a));
+Console.WriteLine("y =");
+Console.WriteLine(y);
+double z = ;
+Console.WriteLine("z =");
+Console.WriteLine(z);
+double r = ;
+Console.WriteLine("r =");
+Console.WriteLine(r);
