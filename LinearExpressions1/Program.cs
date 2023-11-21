@@ -12,5 +12,5 @@ double y = 5 * (a + b) * (c - d) / (1 / 2.0 * c) + d * d * ((a * a - b * b) / (b
 Console.WriteLine($"y = {y}");
 double z = (Math.Pow((x * x - 2 * x), 3) - 4 * (Math.Pow(x, 4) + 1) * (1 - b)) / (5 * a + 3 * b);
 Console.WriteLine($"z = {z}");
-double r = (1 / 2.0 * a + 3 / 4.0 * b - 7 / 5.0) / (3 * c + 1) + 1 / (a - c);
+double r = (1 / 2.0 * a + 3 / 4.0 * b - 7 / 5.0) / (3 * c + 1) + 1.0 / (a - c);
 Console.WriteLine($"r = {r}");
